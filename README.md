@@ -123,7 +123,7 @@ yarn install && yarn dev
 ```
 Note: The version of node the application was written is v17.
 
-###################################################################################################################################################################
+#####################################################################################################################
 
 <p align="center">
 <img alt="favicon" src="https://res.cloudinary.com/pei7pei8luobo/image/upload/v1630420930/vegetarian_gzpvzo.svg" width="200" height="200" >
