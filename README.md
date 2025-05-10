@@ -84,11 +84,7 @@ yarn install && yarn dev
 ```
 Note: The version of node the application was written is v17.
 
-#####################################################################################################################
-
-<p align="center">
-<img alt="favicon" src="https://res.cloudinary.com/pei7pei8luobo/image/upload/v1630420930/vegetarian_gzpvzo.svg" width="200" height="200" >
-</p>
+##############################################################################################################
 
 # Restaurant project - backend
 This is an SPA website for booking a table in an imagined vegan restanrant, using React as frontend and Node.js as backend. Foodies can simply browse the menu without login and they need to register as members if they want to make a reservation. On the other hand, admin can manage not only bookings from the customers but also content of the menu.
