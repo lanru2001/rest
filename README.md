@@ -20,7 +20,7 @@ Or simply create a new account by registration.
 <img width="1419" alt="register" src="https://user-images.githubusercontent.com/58638019/131512782-56af10b9-534e-49fd-bb34-488ae5102bf0.png">
 
 
-# Fatures
+# Features
 * Customers can
   - browse menu
   - register, login and logout
@@ -82,13 +82,17 @@ npm -v # Should print "10.9.2".
 yarn install && yarn dev
 #yarn start
 ```
+4.Frontend URL
+   ```javascript
+    BASE_URL: localhost:3000  //https://group-five-frontend-software-engineering.com
+   ```
 Note: The version of node the application was written is v17.
 
 # Restaurant project - backend
 This is an SPA website for booking a table in an imagined vegan restanrant, using React as frontend and Node.js as backend. Foodies can simply browse the menu without login and they need to register as members if they want to make a reservation. On the other hand, admin can manage not only bookings from the customers but also content of the menu.
 
-# Fatures
-BASE_URL: https://agile-taiga-49676.herokuapp.com
+# Features
+1. BASE_URL: localhost:5000  //https://group-five-backend-software-engineering.com
 
 * User Authentication
   * get/getme // Verify the users with JWT
