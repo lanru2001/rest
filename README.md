@@ -8,13 +8,7 @@ This is an SPA website for booking a table in an imagined vegan restanrant, usin
 
 <img width="1440" alt="retauranthome" src="https://user-images.githubusercontent.com/58638019/132412312-c88f1312-0122-471f-b370-a98a5c31d09a.png">
 
-# Demo
-[Demo](https://reactrestaurantfn.herokuapp.com/#/).
-
-You may use the admin's login. Username: admin, password: admin12345678.
-
-:bangbang: I would be really appreciate if you just delete the picture you uploaded when you want to edit menu. This is due to the fact that I need those already-exist pictures to be displayed in the menu page. Thank you in advance. :smiley:
-
+# UI
 
 <img width="1417" alt="login" src="https://user-images.githubusercontent.com/58638019/131512764-b8afc0b4-489c-4c28-a6f1-3dd85c34b7f1.png">
 
