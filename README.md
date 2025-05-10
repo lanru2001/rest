@@ -17,7 +17,7 @@ Or simply create a new account by registration.
 <img width="1419" alt="register" src="https://user-images.githubusercontent.com/58638019/131512782-56af10b9-534e-49fd-bb34-488ae5102bf0.png">
 
 # About this project
-This project is inspired by [one of my assignment](https://github.com/Lidemy/mentor-program-4th-Pei-wen-code/tree/master/homeworks/week6) when I was learning in a [coding mentorship programme](https://github.com/Lidemy/mentor-program-4th-Pei-wen-code) with Lidemy. That is a simple homepage of an imagined restaurant where only HTML and CSS are used. Having been learning React and Node.js, I decide to create a SPA website where customers can make reservation without spending time to call restaurants. On the other hand, restaurant owners can save time to look for the availability when customers phone in, meaning they will have more time to be creative in their cuisine.
+ This is a simple homepage of an imagined restaurant where only HTML and CSS are used with React for frontend and Node.js for backend, we have decided to create a SPA website where customers can make reservation without spending time to call restaurants. On the other hand, restaurant owners can save time to look for the availability when customers phone in, meaning they will have more time to be creative in their cuisine.
 
 # Fatures
 * Customers can
