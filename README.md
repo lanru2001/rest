@@ -11,15 +11,6 @@ This is an SPA website for booking a table in an imagined vegan restanrant, usin
 
 <img width="1440" alt="retauranthome" src="https://user-images.githubusercontent.com/58638019/132412312-c88f1312-0122-471f-b370-a98a5c31d09a.png">
 
-# UI
-
-<img width="1417" alt="login" src="https://user-images.githubusercontent.com/58638019/131512764-b8afc0b4-489c-4c28-a6f1-3dd85c34b7f1.png">
-
-Or simply create a new account by registration.
-
-<img width="1419" alt="register" src="https://user-images.githubusercontent.com/58638019/131512782-56af10b9-534e-49fd-bb34-488ae5102bf0.png">
-
-
 # Features
 * Customers can
   - browse menu
