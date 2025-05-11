@@ -8,9 +8,6 @@
 # Restaurant project - frontend
 This is an SPA website for booking a table in an imagined vegan restanrant, using React for frontend. Foodies can simply browse the menu without login and they need to register as members if they want to make a reservation. On the other hand, admin can manage not only bookings from the customers but also content of the menu.
 
-
-<img width="1440" alt="retauranthome" src="https://user-images.githubusercontent.com/58638019/132412312-c88f1312-0122-471f-b370-a98a5c31d09a.png">
-
 # Features
 * Customers can
   - browse menu
