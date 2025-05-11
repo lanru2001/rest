@@ -4,7 +4,7 @@ export const isEmailValid = (email) => {
 };
 
 export const isPhoneValid = (phone) => {
-    const rule = /((\+44(\s\(0\)\s|\s0\s|\s)?)|0)7\d{3}(\s)?\d{6}/;
+    const rule = /((\+1(\s\(0\)\s|\s0\s|\s)?)|0)7\d{3}(\s)?\d{6}/;
     return rule.test(phone.toString());
 };
 
