@@ -1,6 +1,6 @@
 import { React, useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import styled, { css  } from 'styled-components';
+import styled, { css } from 'styled-components';
 import { setAuthToken } from '../../utils';
 import { device } from '../../constants/devices';
 import { login, getMe } from '../../WebAPIs';
@@ -109,6 +109,23 @@ const RegisterButton = styled(Link)`
     }
 `;
 
+const GuestButton = styled.button`
+    background: #ddd;
+    border: none;
+    ${reuseButton};
+
+    @media ${device.mobileXS} {
+        width: 200px;
+    };
+    @media ${device.tablet} {
+        width: 400px;
+    };
+
+    &:hover {
+        ${reuseHover}
+    }
+`;
+
 const ErrorMessage = styled.div`
     text-align: center;
     color: red;
@@ -122,19 +139,14 @@ export default function LoginPage() {
     const [isSubmit, setIsSubmit] = useState(false);
     const history = useHistory();
 
-    const handleInputFocus = () => {
-        setErrorMessage('');
-    };
-    const handleUsernameChange = (e) => {
-        setUsername(e.target.value);
-    };
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-    };
+    const handleInputFocus = () => setErrorMessage('');
+    const handleUsernameChange = (e) => setUsername(e.target.value);
+    const handlePasswordChange = (e) => setPassword(e.target.value);
+
     const handleSubmitForm = (e) => {
         e.preventDefault();
         if (isSubmit || errorMessage) return;
-        if (!username || !password) return setErrorMessage('You must fill in all blanks')
+        if (!username || !password) return setErrorMessage('You must fill in all blanks');
         
         setIsSubmit(true);
         login(username, password)
@@ -144,8 +156,7 @@ export default function LoginPage() {
                 return setErrorMessage(response.message);
             }
             setAuthToken(response.token);
-            getMe()
-            .then((response) => {
+            getMe().then((response) => {
                 if (response.ok !== 1) {
                     setAuthToken('');
                     setIsSubmit(false);
@@ -156,14 +167,19 @@ export default function LoginPage() {
                 history.push('/');
             }).catch((err) => {
                 setIsSubmit(false);
-                return setErrorMessage(errorMessage);
+                return setErrorMessage('Failed to fetch user info');
             });
         })
         .catch((err) => {
             setIsSubmit(false);
-            return setErrorMessage(`${err.message}! Sorry, the server is done.`);
+            return setErrorMessage(`${err.message}! Sorry, the server is down.`);
         });
-    }
+    };
+
+    const handleContinueAsGuest = () => {
+        setUser(null); // explicitly set user to null
+        history.push('/reserve'); // or wherever the reservation form is
+    };
 
     return (
         <Root>
@@ -181,11 +197,14 @@ export default function LoginPage() {
                     </InputContainer>
                     <ButtonsContainer>
                         <LoginButton type="submit">Login</LoginButton>
-                        <RegisterButton to='register'>Don't have an account? Register now!</RegisterButton>
+                        <RegisterButton to='/register'>Don't have an account? Register now!</RegisterButton>
+                        <GuestButton type="button" onClick={handleContinueAsGuest}>
+                            Continue as Guest
+                        </GuestButton>
                     </ButtonsContainer>
                 </UserInfoForm>
             </UserInfoContainer>
             {isSubmit && <Loader isLoad={isSubmit}/>}
         </Root>
-    )
+    );
 }
