@@ -4,8 +4,9 @@ export const isEmailValid = (email) => {
 };
 
 export const isPhoneValid = (phone) => {
-    const rule = /((\+1(\s\(0\)\s|\s0\s|\s)?)|0)7\d{3}(\s)?\d{6}/;
-    return rule.test(phone.toString());
+    // US phone number regex pattern
+    const usPhoneRegex = /^(\+1\s?)?(\(?\d{3}\)?[\s.-]?)?\d{3}[\s.-]?\d{4}$/;
+    return usPhoneRegex.test(phone.toString());
 };
 
 export const isPwValid = (password) => {
