@@ -286,13 +286,13 @@ export default function HomePage() {
     return (
         <Root>
             <Banner>
-                <h1>Vegan is new sexy</h1>
+                <h1>Modern American restaurant</h1>
                 <Action to={ user ? "/reserve" : "/login"}>Reserve my table today</Action>
             </Banner>
             <MainBody>
                 <Intro>
-                    <Title data-aos="fade-up">Who are we?</Title>
-                    <Description data-aos="fade-up">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</Description>
+                    <Title data-aos="fade-up">About Us?</Title>
+                    <Description data-aos="fade-up">Welcome to Taj Restaurant. We are an American restaurant, and we offer exceptional service and a very warm, inviting atmosphere. We are an established restaurant with the vision of creating a fine dining experience that will enlighten the diversity of American cuisine, Taj Restaurant offers a menu filled with a variety of favorites and original dishes crafted from the finest ingredients. Our team provides guests with great meals, whether you are enjoying a casual lunch or celebrating a special occasion. At Taj Restaurant, we believe in the power of good food to bring people together, and we aim to make every visit a great experience.?</Description>
                 </Intro>
                 <RecommendMenu>
                     <Title data-aos="fade-up">Chef's special</Title>
