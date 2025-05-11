@@ -3,7 +3,7 @@
 </p>
 
 # About this project
- This is a simple homepage of an imagined restaurant where only HTML and CSS are used with React for frontend and Node.js for backend, we have decided to create a restaurant reservation website where customers can make reservation without spending time to call restaurants. On the other hand, restaurant owners can save time to look for the availability when customers phone in, meaning they will have more time to be creative in their cuisine.
+This is a simple homepage of an imagined modern american restaurant where only HTML and CSS are used with React for frontend and Node.js for backend, we have decided to create a restaurant reservation website where customers can make reservation without spending time to call restaurants. On the other hand, restaurant owners can save time to look for the availability when customers phone in, meaning they will have more time to be creative in their cuisine.
 
 # Restaurant project - frontend
 This is a restaurant reservation  website for booking a table in an imagined modern american restanrant, using React for frontend. Foodies can simply browse the menu without login and they need to register as members if they want to make a reservation or continue as guest. On the other hand, admin can manage not only bookings from the customers but also content of the menu.
