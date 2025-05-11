@@ -292,7 +292,7 @@ export default function HomePage() {
             <MainBody>
                 <Intro>
                     <Title data-aos="fade-up">About Us?</Title>
-                    <Description data-aos="fade-up">Welcome to Taj Restaurant. We are an American restaurant, and we offer exceptional service and a very warm, inviting atmosphere. We are an established restaurant with the vision of creating a fine dining experience that will enlighten the diversity of American cuisine, Taj Restaurant offers a menu filled with a variety of favorites and original dishes crafted from the finest ingredients. Our team provides guests with great meals, whether you are enjoying a casual lunch or celebrating a special occasion. At Taj Restaurant, we believe in the power of good food to bring people together, and we aim to make every visit a great experience.?</Description>
+                    <Description data-aos="fade-up">Welcome to Taj Restaurant. We are an American restaurant, and we offer exceptional service and a very warm, inviting atmosphere. We are an established restaurant with the vision of creating a fine dining experience that will enlighten the diversity of American cuisine, Taj Restaurant offers a menu filled with a variety of favorites and original dishes crafted from the finest ingredients. Our team provides guests with great meals, whether you are enjoying a casual lunch or celebrating a special occasion. At Taj Restaurant, we believe in the power of good food to bring people together, and we aim to make every visit a great experience.</Description>
                 </Intro>
                 <RecommendMenu>
                     <Title data-aos="fade-up">Chef's special</Title>
@@ -325,8 +325,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="04/20/2025">
                                     Smith Tom
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>I found Taj Restaurant while walking in the area, and I'm so glad I found it. The food was very delicious, with a good number of portions and great flavors. The staff was friendly and attentive, they made sure we had everything we needed. I'll be coming back!
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
@@ -337,8 +336,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="04/24/2025">
                                     Robinson Sheffield
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>We chose Taj Restaurant for our family reunion, and it happened to be the perfect choice. The menu had everything you could think of, from kids to grandparents, and the atmosphere was cozy and welcoming. Everyone left happy and very full, and we're already planning when to visit again.
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
@@ -349,8 +347,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="05/01/2025">
                                     Fred knight
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>Dining at the Taj Restaurant was a great experience. The service was top-notch, with staff going out of their way to accommodate our preferences. The food was fresh and flavorful, and the presentation was beautiful. Highly recommend! 
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
@@ -361,8 +358,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="05/02/2025">
                                     Peige Marcus
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>Taj Restaurant offers excellent value for money. The prices are very reasonable considering the quality and portion sizes. I've tried almost everything on the menu, and each one has been delicious. It's become my go-to spot for a satisfying meal.
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
@@ -373,8 +369,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="04/28/2025">
                                     Eniola  Ola
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>If you love American cuisine, Taj Restaurant is a must-visit. The menu features a fantastic variety of dishes, all well prepared. The ambiance is relaxed and elegant, making it a great place for both casual dinners and special occasions.
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
@@ -385,8 +380,7 @@ export default function HomePage() {
                                 <ReviwerInfo $date="04/19/2025">
                                     Ella Richy
                                 </ReviwerInfo>
-                                <ReviewerContent>This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
-                                    This is the best vegan meal I have ever had in my life! I will highly recommend you to give it a try!
+                                <ReviewerContent>What impressed me most about Taj Restaurant was the menu and how well put together it was. From classic burgers to unique chef specials, there's something for everyone. The flavors were spot-on, and the dessert selection was good.
                                 </ReviewerContent>
                             </Reviewer>
                         </SwiperSlide>
