@@ -115,3 +115,56 @@ npm install
 ```javascript
 node index.js
 ```
+# Restaurant project - Database
+```bash
+# Install MySQL Server (and client)
+brew install mysql
+brew services start mysql
+
+# Log Into the MySQL Client
+mysql -u root -p  //provide the password
+
+# CREATE DATABASE
+CREATE DATABASE restaurantsqlz;
+
+# Use sequelize migration files to create the tables in restaurantsqlz database
+npm install --save-dev sequelize-cli // download sequelize-cli
+npx sequelize-cli db:migrate --to 20210602100636-create-user.js
+npx sequelize-cli db:migrate --to 20210602100853-create-product.js
+npx sequelize-cli db:migrate --to 20210602100953-create-reservation.js
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| restaurantsqlz     |
+| sys                |
++--------------------+
+
+mysql> SHOW TABLES;
++--------------------------+
+| Tables_in_restaurantsqlz |
++--------------------------+
+| Products                 |
+| Reservations             |
+| SequelizeMeta            |
+| Users                    |
++--------------------------+
+
+mysql> SELECT * FROM Users;
++----+---------------+----------------------------+--------------------------------------------------------------+---------------------+---------------------+
+| id | username      | email                      | password                                                     | createdAt           | updatedAt           |
++----+---------------+----------------------------+--------------------------------------------------------------+---------------------+---------------------+
+|  1 | azeez         | lanru2001@yahoo.com        | $2b$10$aqDVNqZwyIRapO9wIZXzZeeNKUHbzSOC7D1TUTmhKgyOO4sg4QkP. | 2025-05-10 02:58:16 | 2025-05-10 02:58:16 |
+|  2 | erika         | erikawalker21@yahoo.com    | $2b$10$KUsYMiI64xWg7KUxWmRbKOjoxw/6r0BhzivGMJo9VesYqfID0H1IC | 2025-05-10 16:09:38 | 2025-05-10 16:09:38 |
+|  3 | tope          | lanretemitope7@gmail.com   | $2b$10$LUW/2DszE406A7pRBcmFpetbibHDBRB.lrJioaGHJAyJt96wCiy9y | 2025-05-10 16:11:45 | 2025-05-10 16:11:45 |
+|  4 | chloe         | chloe123@yahoo.com         | $2b$10$nK9nZ9vk6JXW0RCm6akTlu56L0mViUMSlV51x0sBToFvOsXO7zMqC | 2025-05-10 21:41:07 | 2025-05-10 21:41:07 |
+|  5 | donald_trump  | donald_trump@yahoo.com     | $2b$10$dXnQIDt2KslqmJVwpmywneV0C6TIrennoiBzALMtCc0wZ1wh9q6We | 2025-05-11 01:50:43 | 2025-05-11 01:50:43 |
+|  6 | mikejohns2025 | mikejohns@yahoo.com        | $2b$10$9et7bcZO0nES2uFvB4voDOIplpmJWN7E/eZzaYi/sSvovoOwpPU9S | 2025-05-11 02:38:05 | 2025-05-11 02:38:05 |
+|  7 | bolade        | azolanrewaju2024@yahoo.com | $2b$10$0JOk.eW0ktO6u.4Jx6sU1.5x4EqYGynwM7YZ7muW0hJUA1iXP8QPS | 2025-05-11 03:28:38 | 2025-05-11 03:28:38 |
++----+---------------+----------------------------+--------------------------------------------------------------+---------------------+---------------------+
+
+```
