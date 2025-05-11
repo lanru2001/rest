@@ -272,7 +272,7 @@ export default function ReservePage() {
                         <Input value={lastname} onChange={(e) => setLastname(e.target.value)} onFocus={handleInputFocus}/>
                     </InputContainer>
                     <InputContainer>
-                        <InputLabel>UK Mobile </InputLabel>
+                        <InputLabel>US Mobile </InputLabel>
                         <Input value={mobile} onChange={(e) => setMobile(e.target.value)} onFocus={handleInputFocus}/>
                     </InputContainer>
                     <InputContainer>
