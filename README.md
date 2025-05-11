@@ -43,6 +43,7 @@ Or simply create a new account by registration.
 * Sequelize // Using ORM to manage database like managing objects in JavaScript
 * Sequelize-cli // Creating models easily with migration
 * bcrypt // Hashing password and password authentication
+* jsonwebtoken // User authentication using RSA
 * multer // A middlewear for handling file upload
 * cloudinary // A cloud service offering API for image management
 * Stripe // An API handling payment made from customers
